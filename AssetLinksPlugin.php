@@ -13,25 +13,25 @@
 namespace Craft;
 
 class AssetLinksPlugin extends BasePlugin {
-    public function getName() {
-        return Craft::t("AssetLinks");
-    }
+	public function getName() {
+		return Craft::t("AssetLinks");
+	}
 
-    public function getVersion() {
-        return "1.0";
-    }
+	public function getVersion() {
+		return "1.0";
+	}
 
-    public function getDeveloper() {
-        return "Rick Hambrook";
-    }
+	public function getDeveloper() {
+		return "Rick Hambrook";
+	}
 
-    public function getDeveloperUrl() {
-        return "http://www.rickhambrook.com";
-    }
+	public function getDeveloperUrl() {
+		return "http://github.com/Hambrook/AssetLinks";
+	}
 
-    public function hasCpSection() {
-        return false;
-    }
+	public function hasCpSection() {
+		return false;
+	}
 
 	function init() {
 		if (craft()->request->isCpRequest() && craft()->userSession->isLoggedIn()) {
