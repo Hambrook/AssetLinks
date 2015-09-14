@@ -1,5 +1,5 @@
 $(function(){
-	$("#fields .field .input .elementselect .element:not(.linked)").each(function(){
+	$(".field .input .elementselect .element:not(.linked)").each(function(){
 		var $this = $(this);
 		if (!$this.data("url")) { return false; }
 		var $a = $("<a class='icon'> </a>")
