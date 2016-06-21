@@ -7,7 +7,7 @@ $(function(){
 			.attr("target", "_blank")
 			.attr("title", "Download")
 			.addClass("download")
-			.addClass("sharebtn")
+			// .addClass("sharebtn")
 			.addClass("icon")
 			.appendTo($this)
 		$this
